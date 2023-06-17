@@ -10,7 +10,14 @@
         }
 
         table {
+            border-collapse: collapse;
             width: 600px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 5px;
         }
 
         td, th {
@@ -23,19 +30,55 @@
 <body>
     <h1>Tabela Completa</h1>
     <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
         <thead>
         <tr>
             <th scope="col">Grupo</th>
             <th scope="col">Nomes</th>
-            <th scope="col">Filmes</th>
+            <th scope="col" colspan="3">Filmes</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <th scope="row">Mulheres</th>
+            <th scope="rowgroup" rowspan="3">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
         </tr>
         <tr>
-            <th scope="row">Homens</th>
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td>Claúdia Melo</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="3">Homens</th>
+            <td>Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amésia</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr>
+            <td>Daniel Lourenço</td>
+            <td>Kall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+        </tr>
+        <tr>
+            <td>Fabiano Mota</td>
+            <td>Star Wars X</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story</td>
+        </tr>
         </tr>
     </tbody>
     </table>
