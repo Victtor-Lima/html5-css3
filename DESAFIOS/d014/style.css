@@ -6,6 +6,7 @@ body {
 
 table {
     width: 500px;
+    border-collapse: collapse;
 }
 
 thead {
@@ -14,7 +15,7 @@ thead {
 }
 
 td, tr, th {
-    border: 1px solid black;
+    border:1.5px solid black;
     padding: 5px;
     text-align: center;
 }
