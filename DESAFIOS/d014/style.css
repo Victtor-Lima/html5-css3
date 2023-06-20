@@ -14,6 +14,17 @@ thead {
     color: white;
 }
 
+th.med {
+    background-color: #646464;
+    color: white;
+    text-align: left;
+}
+
+td.med {
+    background-color: #646464;
+    color: white;
+}
+
 td, tr, th {
     border:1.5px solid black;
     padding: 5px;
