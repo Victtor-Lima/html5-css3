@@ -7,6 +7,9 @@
     menu {
         display: block;
     }
+    menu > ul {
+        display: block;
+    }
     menu > ul > li {
         display: inline-block;
     }
